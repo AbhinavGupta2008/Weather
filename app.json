@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Weather",
+    "slug": "Weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "splash": {
+      "image": "./splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.testuser.weatherapp"
+    },
+    "android": {
+      "package":"com.testuser.weatherapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./favicon.png"
+    },
+    "description": "This is a Weather App which provides thd data about weather of the searched places."
+  }
+}
